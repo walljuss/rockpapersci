@@ -1,0 +1,59 @@
+.header { 
+  text-align: center;
+}
+
+.main {
+  margin: 50px;
+  gap: 10vw;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.main img {
+  height: 150px;
+  width: auto;
+  margin: 0 30px;
+}
+
+#paper {
+  background-color: lightgreen;
+}
+
+#rock {
+  background-color: lightskyblue;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+}
+
+.result p {
+  padding: 0;
+  margin: 10px;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+img:hover {
+  transform: scale(1.2);
+  transition-duration: 500ms;
+}
+
+.live {
+  color: brown;
+}
+
+p.computerpoint {
+  display: block;
+  padding-left: 5vw;
+}
+
+p.playerpoint {
+  display: block;
+  padding-right: 3vw;
+}
+
